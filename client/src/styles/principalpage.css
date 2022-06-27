@@ -1,0 +1,94 @@
+.DetailZone{
+    display: flex;
+    flex-direction: column; 
+    gap: 5vh;
+}
+.Detail{
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 10vw;
+}
+.Left{
+    background-color: rgb(242,242,242);
+    padding: 1vw;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Left h1{
+    font-size: 2vw;
+}
+.Left p{
+    text-align: left;
+    font-size: 1vw;
+}
+.Right .imagecontainer{
+  width: 40vw;
+  height: 30vw;
+  overflow: hidden;
+  object-fit: cover;
+}
+.Right{
+    background-color: rgb(242,242,242);
+    padding: 1vw;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Right ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-Style: none;
+    font-size: 2.4vw;
+    color: rgb(27, 27, 27);
+    font-weight: 600;
+    background-color: rgb(235, 187, 255);
+    border-radius: 0.3vw;
+}
+.Detailbutton{
+    color: white;
+    font-size: 2.5vw;
+    background-color: rgb(222, 76, 66);
+    width: 35vw;
+    height: 4vw;
+}
+.steps{
+    width: 80%;
+    height: 20vw;
+    overflow-y: scroll;
+}
+.steps li{
+    text-align: left;
+}
+.Paginate{
+    gap: 0.5vw;
+    display: flex;
+    flex-direction: row;
+}
+.Page{
+    border: none;
+    color: white;
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(49, 49, 49);
+}
+.Page:hover{
+    transform: scale(1.1);
+}
+.PaginateZone{
+    gap: 1vw;
+    margin-top: 2vw;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

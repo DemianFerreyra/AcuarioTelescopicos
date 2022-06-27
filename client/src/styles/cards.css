@@ -1,0 +1,48 @@
+.Cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(30vw));
+    justify-content: center;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.5vw 0.5vw 0.1vw rgba(0, 0, 0, 0.404);
+    background-color: white;
+    margin-top: 3vw;
+    width: 25vw;
+    height: 31vw;
+    transition: all .2s;
+}
+.imageContainer{
+    margin-top: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 95%;
+    height: 18vw;
+    overflow: hidden;
+}
+.imageContainer ul{
+    margin-top: 15vw;
+    width: 25vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imageContainer ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-Style: none;
+    font-size: 1vw;
+    color: azure;
+    font-weight: 600;
+    background-color: rgb(182, 141, 221);
+    border-radius: 10vw;
+}
+.Card:hover{
+    transform: scale(1.05);
+}

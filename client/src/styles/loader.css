@@ -1,0 +1,22 @@
+.pizza{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(242,242,242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pizza img{
+    animation: round_round 1s infinite steps(12);
+}
+@keyframes round_round{
+    from {
+        transform: translate(0vw, -4vw) scale(3) rotate(0deg);;
+    }
+    to {
+        transform: translate(0vw, -4vw) scale(3) rotate(360deg);; 
+    }
+}
